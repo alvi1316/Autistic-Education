@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="528.0" prefWidth="748.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="autistic.edu.AlphabetFXMLController">
+   <children>
+      <Button layoutX="90.0" layoutY="104.0" mnemonicParsing="false" onAction="#selectAlphabetAction" text="A" />
+      <Button layoutX="180.0" layoutY="104.0" mnemonicParsing="false" onAction="#selectAlphabetAction" text="B" />
+      <Button layoutX="270.0" layoutY="104.0" mnemonicParsing="false" onAction="#selectAlphabetAction" text="C" />
+      <Button layoutX="360.0" layoutY="104.0" mnemonicParsing="false" onAction="#selectAlphabetAction" text="D" />
+      <Button layoutX="450.0" layoutY="104.0" mnemonicParsing="false" onAction="#selectAlphabetAction" text="E" />
+      <Button layoutX="540.0" layoutY="104.0" mnemonicParsing="false" onAction="#selectAlphabetAction" prefHeight="31.0" prefWidth="31.0" text="F" />
+      <Button layoutX="630.0" layoutY="104.0" mnemonicParsing="false" onAction="#selectAlphabetAction" prefHeight="31.0" prefWidth="31.0" text="G" />
+      <Button layoutX="90.0" layoutY="185.0" mnemonicParsing="false" onAction="#selectAlphabetAction" text="H" />
+      <Button layoutX="180.0" layoutY="185.0" mnemonicParsing="false" onAction="#selectAlphabetAction" text="I" />
+      <Button layoutX="270.0" layoutY="185.0" mnemonicParsing="false" onAction="#selectAlphabetAction" text="J" />
+      <Button layoutX="360.0" layoutY="185.0" mnemonicParsing="false" onAction="#selectAlphabetAction" text="K" />
+      <Button layoutX="450.0" layoutY="185.0" mnemonicParsing="false" onAction="#selectAlphabetAction" text="L" />
+      <Button layoutX="540.0" layoutY="185.0" mnemonicParsing="false" onAction="#selectAlphabetAction" prefHeight="31.0" prefWidth="38.0" text="M" />
+      <Button layoutX="630.0" layoutY="185.0" mnemonicParsing="false" onAction="#selectAlphabetAction" prefHeight="31.0" prefWidth="38.0" text="N" />
+      <Button layoutX="90.0" layoutY="261.0" mnemonicParsing="false" onAction="#selectAlphabetAction" text="O" />
+      <Button layoutX="180.0" layoutY="261.0" mnemonicParsing="false" onAction="#selectAlphabetAction" text="P" />
+      <Button layoutX="270.0" layoutY="261.0" mnemonicParsing="false" onAction="#selectAlphabetAction" text="Q" />
+      <Button layoutX="360.0" layoutY="261.0" mnemonicParsing="false" onAction="#selectAlphabetAction" text="R" />
+      <Button layoutX="450.0" layoutY="261.0" mnemonicParsing="false" onAction="#selectAlphabetAction" text="S" />
+      <Button layoutX="540.0" layoutY="261.0" mnemonicParsing="false" onAction="#selectAlphabetAction" prefHeight="31.0" prefWidth="31.0" text="T" />
+      <Button layoutX="630.0" layoutY="261.0" mnemonicParsing="false" onAction="#selectAlphabetAction" prefHeight="31.0" prefWidth="31.0" text="U" />
+      <Button layoutX="90.0" layoutY="339.0" mnemonicParsing="false" onAction="#selectAlphabetAction" text="V" />
+      <Button layoutX="180.0" layoutY="339.0" mnemonicParsing="false" onAction="#selectAlphabetAction" text="W" />
+      <Button layoutX="270.0" layoutY="339.0" mnemonicParsing="false" onAction="#selectAlphabetAction" text="X" />
+      <Button layoutX="360.0" layoutY="339.0" mnemonicParsing="false" onAction="#selectAlphabetAction" text="Y" />
+      <Button layoutX="450.0" layoutY="339.0" mnemonicParsing="false" onAction="#selectAlphabetAction" text="Z" />
+      <Text layoutX="92.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Alphabet is:" />
+      <Text fx:id="alphabet" layoutX="215.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="31.000000432133675" />
+      <Button layoutX="251.0" layoutY="40.0" mnemonicParsing="false" onAction="#pronounceAction" text="Pronounce" />
+      <Button layoutX="88.0" layoutY="403.0" mnemonicParsing="false" onAction="#submitAction" text="Submit" />
+      <Text fx:id="answer" layoutX="88.0" layoutY="487.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="165.025390625" />
+      <Button layoutX="508.0" layoutY="403.0" mnemonicParsing="false" onAction="#againAction" text="Try Again" />
+      <Button layoutX="617.0" layoutY="403.0" mnemonicParsing="false" onAction="#backAction" text="Back" />
+   </children>
+</AnchorPane>
